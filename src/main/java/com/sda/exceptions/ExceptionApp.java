@@ -17,7 +17,16 @@ public class ExceptionApp {
 
 //        List<String> teksty = null;
 //        teksty.add("T1");
+        try {
+            List<String> teksts = new ArrayList<>();
+            teksts.add("Ala");
+            teksts.add("ma");
+            teksts.add("kota");
 
-
+            teksts.get(5);
+            System.out.println("This line is not executed!");
+        }catch (IndexOutOfBoundsException exception){
+            System.out.println("Error occurred!");
+        }
     }
 }
