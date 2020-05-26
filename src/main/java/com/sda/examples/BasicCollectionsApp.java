@@ -1,4 +1,4 @@
-package com.sda;
+package com.sda.examples;
 
 import java.util.ArrayList;
 import java.util.HashMap;
